@@ -69,7 +69,7 @@ label start:
     scene bu
     r "Plus, I know so little about cat breeds and their pros and cons!"
     show believe
-    r "So if I want to find the perfect kitty that matcheds my interests and financial situation, I'll need to do a lot of reasherch."
+    r "So if I want to find the perfect kitty that matches my interests and financial situation, I'll need to do a lot of reaserch."
     scene bu
     play sound "girl-oh-no-150550.mp3" volume 3.0
     r "Oh no! But I don't want to do work!!!"
@@ -77,7 +77,7 @@ label start:
     show glad
     r "Oh wait! My best friend Penelope works at the pet store across the street!"
     play sound "chuckle.mp3" volume 2.0
-    r "She can definitely healp me!"
+    r "She can definitely help me!"
     show yes
     r "Then I can finally have a pet of my own!"
     show believe
@@ -85,7 +85,7 @@ label start:
     r "Do you think I should just go for a common cat sice I'm a only collede student and it's my first time trying to raise one?"
     hide believe
     show glad
-    r "Or maybe I should aim for apedigree or purebred cat while I'm living alone and have the time to take care of it - who knows, maybe I'll become an expert!"
+    r "Or maybe I should aim for apedigree or purebred cat while I'm living alone and have the time to take care of it -- who knows, maybe I'll become an expert!"
     show confident 
     r "Or... Should I take a risk, go all in, and spend ll my current money on an exotic or rare breed?"
 
@@ -221,6 +221,7 @@ label start:
             p "Li Hua is an intelligent, loyal, playful, and athletic natural breed."
             p "In our store, they cost about $140 to $280."
             r "Cool!"
+            scene room with fade
             r "I think I want..."
             stop music fadeout 2.0
             menu:
@@ -298,65 +299,97 @@ label start:
             r "I choose high-end breeds."
             hide confident
             show yes at smallleft
-            r "As my best friend, you know my personality--I always want the best!"
+            r "As my best friend, you know my personality -- I always want the best!"
             hide normal
             show smile at smallright 
             p "Yes, of course!"
             p "Althought they can be really expensive, I respect your choice, Raniya."
             hide smile
             show normal at smallright
-            p "But since you choose the rare and high-end breeds, you should really take extra care of them--seriously!"
+            p "But since you choose the rare and high-end breeds, you should really take extra care of them -- seriously!"
             hide yes
             show believe at smallleft
             r "Okay... you're making me nervous. Why should I take extra care of them?"
             hide normal
             show smile at smallright
-            p "There are so many adorable mixed-breed and domestic cats!"
+            p "Well, since the rare and high-end breeds are more delicate and require specific care, it's important to give them extra attention."
             p "I want to introduce you to two of my favourites."
             hide smile
             show hap at smallright
             p "As your best friend, I know you'll love them too!"
-            scene tabby with fade
+            scene sphynx with fade
             play sound "cat-meow-sound-383823.mp3" volume 3.3
             hide hap
             show normal at smallright
-            p "So this cute cat you're seeing is a grey tabby cat."
-            p "A tabby cat isn't a breed, but a coat pattern defined by an M marking on the forehead, stripes by its eyes, cheeks, along its back, and around its legs and tail."
-            p "Common personality traits often reported by tabby owners include affectionate, playful and curious, intelligent, vocal, and adaptable."
-            p "In our pet store, a tabby cat ranges from around $50 to $200 for a domestic short-hair tabby."
+            p "So this unique cat you're seeing is a sphynx."
+            p "They are also known as the Canadian Sphynx."
+            p "It's a breed of cat known for its lack of fur."
+            p "Hairlessness in cats is naturally occurring genetic mutation, and the Sphynx was developed through selective breeding of these animals, starting in the 1960s."
+            hide normal
+            show smile at smallright
+            p "Sphynx are known for their extroverted behavior. They display a high level of energy, intelligence, curiosity and sffection for their owners."
+            p "They are one of the more dog-like breeds of cats, frequently greeting their owners at the door and are friendly when meeting strangers."
+            p "Care should be taken to limit the Sphynx cat's exposure to outdoor sunlight at length, as they can develop sunburn and skin damage similar to that of humans."
+            p "But yes, Sphynx cats tend to be highly attached to their owners!"
             hide yes
             show confident at smallleft
             play sound "aw-86103.mp3"
-            r "Aw! That's so wonderful!"
+            r "Aw! That's so sweet!"
             hide confident
+            show believe at smallleft
+            r "How much does it cost?"
+            p "In our store, a Sphynx cat costs between $1,500 and $5,000."
+            hide believe
             show yes at smallleft with fade
-            r "What's the next one you wanted to introduce?"
-            scene dragon li with fade
-            play sound "cat-meow-14536.mp3" volume 9.9
+            r "Ok. What's the next one you wanted to introduce?"
+            scene savannah with fade
+            play sound "cat-meow-7-fx-306186.mp3" volume 9.9
             show normal at smallright
-            p "The next one I want to introduce to you is the Dragon Li or Li Hua Mao."
+            p "The next one I want to introduce to you is the Savannah."
+            hide yes
             show glad at smallleft with fade
-            r "Oh! Sounds like a Chinese breed!"
-            p "Yeah! It's know for its striking golden-brown, broken-mackerel tabby coat."
-            p "Li Hua is an intelligent, loyal, playful, and athletic natural breed."
-            p "In our store, they cost about $140 to $280."
+            r "Oh! Looks so tall!"
+            p "Yeah! Savannahs can be very large, and in 2016 an F2 male attained a world record for tallest cat at 48.4 centimetres!"
+            p "This hybridization typically produces large and lean offspring, with the serval's characteristic large ears and markedly brown-spotted coats."
             r "Cool!"
-            r "I think I want..."
+            p "Savannah cats are known for their loyalty."
+            p "And they will follow their owners around the house."
+            p "They can also be trained to walk on a leash and to fetch!"
+            r "Cool!"
+            r "I know many Savannah cats do not fear water, and will play in or even immerse themselves in water!"
+            p "That's true! But there are some health considerations and ownership laws..."
+            p "Savannah cats are more likely to develop hypertrophic cardiomyopathy (HCM) than other domestic breeds."
+            p "The Savannah Cat Association recommends cats are screened for HCM, as well as progressive retinal atrophy and pyruvate kinase deficiency, which can cause blindness and anemia, respectively."
+            p " And you would need to know some laws that govern ownership of Savannah cats."
+            hide glad
+            show believe at smallleft
+            r "That's pretty challenging..."
+            hide believe
+            show yes at smallleft
+            r "But they look so elegant and sleek!"
+            hide yes
+            show confident at smallleft
+            r "And I LOVE their unique characteristics!!!"
+            p "A Savannah cat in our store costs around $1,000 to over $20,000"
+            hide confident
+            show glad at smallleft
+            scene room with fade
+            r "So, I think I'll choose..."
             stop music fadeout 2.0
             menu:
-                "Tabby Cat":
+                "Sphynx Cat":
                     play sound "end.mp3"
                     hide glad
                     show confident at smallleft
-                    r "I think I want a tabby cat!"
+                    r "I think I want a Sphynx!"
                     pause 2.05
                     return
 
-                "Li Hua Mao":
+                "Savannah":
                     play sound "end.mp3"
                     hide glad
                     show confident at smallleft
-                    r "I think I want Li Hua Mao!"
+                    r "I think I want a Savannah!"
                     pause 2.05
                     return
 
