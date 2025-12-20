@@ -1,0 +1,10 @@
+﻿I'm sorry, but errors were detected in your script. Please correct the
+errors listed below, and try again.
+
+
+File "game/script.rpy", line 204: end of line expected.
+    p "A tabby cat isn't a breed, but a coat pattern defined by an "M" marking on the forehead, stripes by its eyes, cheeks, along its back, and around its legs and tail."
+                                                                    ^
+
+Ren'Py Version: Ren'Py 8.4.1.25072401
+Fri Dec 19 18:28:20 2025

@@ -1,16 +1,17 @@
-2025-12-17 01:05:34 UTC
+2025-12-20 00:07:51 UTC
 macOS-15.7.2-arm64-arm-64bit
 Ren'Py 8.4.1.25072401
 
 Early init took 17 ms
-Loading error handling took 8 ms
-Loading script took 21 ms
-Loading save slot metadata took 6 ms
+Loading error handling took 11 ms
+Loading script took 65 ms
+Loading save slot metadata took 8 ms
 Loading persistent took 0 ms
-Running init code took 12 ms
+Running init code took 16 ms
 Loading analysis data took 1 ms
 Analyze and compile ATL took 0 ms
-Reloading save slot metadata took 0 ms
+Reloading save slot metadata took 3 ms
+Backing up script files to '/Users/felicity/Library/RenPy/backups/meow':
 Dump and make backups took 14 ms
 Cleaning cache took 0 ms
 Making clean stores took 0 ms
@@ -19,8 +20,25 @@ DPI scale factor: 1.000000
 Creating interface object took 0 ms
 Init translation took 0 ms
 Cleaning stores took 0 ms
-Load screen analysis took 6 ms
-Analyze screens took 0 ms
-Save screen analysis took 0 ms
+Load screen analysis took 0 ms
+Analyze screens took 3 ms
+Save screen analysis took 4 ms
 Save pyanalysis took 0 ms
-Save bytecode took 0 ms
+Save bytecode took 11 ms
+Running _start took 0 ms
+Interface start took 201 ms
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1470, 956)
+swap interval: 1 frames
+Windowed mode.
+Vendor: 'Apple'
+Renderer: 'Apple M4'
+Version: '2.1 Metal - 89.4'
+Display Info: <Info({'bitsize': 32, 'bytesize': 4, 'masks': (16711680, 65280, 255, 4278190080), 'shifts': (16, 8, 0, 24), 'losses': (0, 0, 0, 0), 'current_w': 1470, 'current_h': 956, 'refresh_rate': 60, 'hw': False, 'wm': True, 'video_mem': 268435456, 'blit_hw': False, 'blit_hw_CC': False, 'blit_hw_A': False, 'blit_sw': False, 'blit_sw_CC': False, 'blit_sw_A': False})>
+Screen sizes: virtual=(1920, 1080) physical=(1368, 770) drawable=(2736, 1540)
+Maximum texture size: 4096x4096
+Cleaning stores took 0 ms
+Load screen analysis took 17 ms
+Analyze screens took 0 ms
+Running _start took 2 ms
