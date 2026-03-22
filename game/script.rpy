@@ -44,7 +44,7 @@ label start:
     pause 0.9
     scene cat
     pause 1.5
-    play music "sweet-acoustic-guitar-music-311691.mp3" fadein 0.5
+    play music "sweet-acoustic-guitar-music-311691.mp3" fadein 1.5
     call scene_loop
     scene yawn 
     play sound "yawning-6096.mp3" volume 8.5
@@ -104,7 +104,7 @@ label start:
         r "I'm just a student and I have limited money and time to take care of the cat."
         r "And cheaper cats are still cute, right?"
         r "Let's stick with that idea!"
-        r "I'm so excited! Let's go!"
+        r "{i}I'm so excited!{/i} Let's go!"
         hide glad
         jump store
 
@@ -215,7 +215,7 @@ label start:
             play sound "cat-meow-14536.mp3" volume 9.9
             show normal at smallright
             p "The next one I want to introduce to you is the Dragon Li or Li Hua Mao."
-            show glad at smallleft with fade
+            show glad at smallleft with dissolve
             r "Oh! Sounds like a Chinese breed!"
             p "Yeah! It's know for its striking golden-brown, broken-mackerel tabby coat."
             p "Li Hua is an intelligent, loyal, playful, and athletic natural breed."
@@ -317,7 +317,7 @@ label start:
             hide smile
             show hap at smallright
             p "As your best friend, I know you'll love them too!"
-            scene sphynx with fade
+            scene sphynx with dissolve
             play sound "cat-meow-sound-383823.mp3" volume 3.3
             hide hap
             show normal at smallright
@@ -342,7 +342,7 @@ label start:
             hide believe
             show yes at smallleft with fade
             r "Ok. What's the next one you wanted to introduce?"
-            scene savannah with fade
+            scene savannah with dissolve
             play sound "cat-meow-7-fx-306186.mp3" volume 9.9
             show normal at smallright
             p "The next one I want to introduce to you is the Savannah."
