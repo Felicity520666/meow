@@ -133,10 +133,10 @@ label start:
         scene room with fade
         play sound "store-entrance-bell-188054.mp3" volume 1.5
         pause 1.0
-        show yes at smallleft with fade 
+        show yes at smallleft with moveinright
         play sound "hello-278029.mp3" volume 5.5
         r "Hello!"
-        show smile at smallright with fade
+        show smile at smallright with moveinleft
         play sound "why-hello-there-103596.mp3" volume 5.5
         p "Why hello there!"
         p "What brings you here to the pet store Raniya?"
