@@ -2,10 +2,9 @@
 
 An informative visual novel made with Ren'Py 🐈 all about cats!
 
-## Play Online
+## Play On itch.io
 
-- 1.0 version play here: <https://felicity666.itch.io/love-kingdom>
-- 2.0 version play here:
+link for playing on itch.io:
 
 ## About The Game
 
@@ -49,7 +48,7 @@ I am still learning, and this game is part of that journey. Feedback is always w
 
 ## Creator
 
-Meow 🐈‍⬛! My name is Felicity. I am a beginner in coding, and I hope you enjoy the game. 💝
+Meow 🐈‍⬛ ! My name is Felicity. I am a beginner in coding, and I hope you enjoy the game. 💝
 
 
 
